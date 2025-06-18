@@ -47,6 +47,7 @@ LIDE/
 - CSS 3
 - Visual Studio Code
 - Canva (para design gráfico)
+- Figma (para design gráfico)
 - Git e GitHub
 
 # Integrantes
