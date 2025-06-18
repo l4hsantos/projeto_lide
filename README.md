@@ -45,6 +45,7 @@ LIDE/
 # 🛠️ Tecnologias Utilizadas
 - HTML 5
 - CSS 3
+- Python 3.12.3
 - Visual Studio Code
 - Canva (para design gráfico)
 - Figma (para design gráfico)
