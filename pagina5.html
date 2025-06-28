@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto LIDE - Clube de Leitura</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #28527A;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    nav a {
+      background-color: #f3e16c;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #28527A;
+      font-weight: 700;
+    }
+
+    nav a:hover{
+    color: #f8fdf8;
+    transform: scale(1.1);
+    transition: all 0.45s ease;
+}
+
+a:hover{
+    color: #d3f5da;
+    transition: 0.3s all;
+}
+
+
+    .btn-sobre {
+      background-color: #f8eb75;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #28527A;
+      font-weight: 700;
+    }
+
+    .btn-grupo{
+      background-color: #faf3b9;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #28527A;
+      font-weight: 700;
+    }
+
+    .hero {
+      background-color: #6db3c6;
+      padding: 50px 20px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #ffcf3f;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .content h2 {
+      color: #28527A;
+      margin-top: 30px;
+    }
+    .content ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      background: linear-gradient(to right, #66c4be, #f8eb75);
+      border-left: 5px solid #28527A;
+      padding: 15px;
+      margin-top: 30px;
+      font-weight: 700;
+      color: #28527A;
+    }
+    .img-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 40px 0;
+    }
+    .img-row img {
+      width: 300px;
+      height: auto;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/imagem3.jpg" alt="Logo LIDE" style="height:70px;">
+      <h1 style="color:white; font-size: 25px; margin: 0;">Livro, Diálogo e Educação</h1>
+    </div>
+  <nav>
+      <a href="index.html">Início</a>
+      <a class="btn-sobre" href="pagina2.html">Sobre Nós</a>
+      <a href="pagina3.html">Indicações</a>
+      <a href="pagina4.html">Materiais</a>
+      <a class="btn-grupo" href="pagina5.html">Monte Seu Clube de Leitura</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="texto" style="text-align: center;"></div>
+        <h1>Monte seu Clube de Leitura!</h1>
+        <p>
+        Reúna amigos, colegas ou interessados e forme seu próprio clube 
+        de leitura. Participe dessa experiência literária de forma simples e divertida!
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <li><a href="pagina2.html">Quem somos </a></li>
+                        <li><a href="mailto:contatolide@gmail.com.br"></a></li>
+                    </ul>
+                </div>
+              
+                <div class="footer-col">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="pagina4.html">Materiais</a></li>
+                        <li><a href="pagina3.html">Indicações</a></li>
+                        <li><a href="pagina5.html">Monte seu Clube do Livro</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Cadastra-se!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>subscrever</button>
+                        </form>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+<section style="display: flex; justify-content: center; align-items: center; padding: 20px 0; background: #28527A;">
+  <p style="color: #fff; margin: 0; font-weight: 700;">© LIDE - Todos os direitos reservados</p>
+</section>
+</html>
