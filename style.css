@@ -1,14 +1,6 @@
-body::before {
-  content: "✔️ CSS CARREGADO!";
-  display: block;
-  color: green;
-  font-weight: bold;
-  padding: 10px;
-}
-
 .form .mensagem {
-  background-color: #f4ebfa;
-  border-left: 5px solid #4a197a;
+  background-color: #2f4858;
+  border-left: 5px solid #33658a;
   padding: 0.8rem;
   font-size: 15px;
   margin-bottom: 1rem;
@@ -26,8 +18,8 @@ body::before {
 }
 
 .form {
-  background-color: #3c1361;  
-  border: 3px solid #f9d71c;
+  background-color: #33658a;  
+  border: 3px solid #f6ae2d;
   border-radius: 12px;
   padding: 1.5rem;
   width: 48%;
@@ -44,12 +36,12 @@ body::before {
 
 .form h2 {
   margin-bottom: 1rem;
-  color: #f9d71c;
+  color: #f6ae2d;
 }
 
 .form .mensagem {
   background-color: rgba(249, 215, 28, 0.15);
-  border-left: 5px solid #f9d71c;
+  border-left: 5px solid #f6ae2d;
   padding: 0.8rem;
   font-size: 15px;
   margin-bottom: 1rem;
@@ -61,7 +53,7 @@ body::before {
   display: block;
   margin-top: 1rem;
   font-weight: 600;
-  color: #ffe847;
+  color: #f6ae2d;
 }
 
 .form input,
@@ -69,25 +61,25 @@ body::before {
   width: 100%;
   padding: 0.5rem;
   margin-top: 0.3rem;
-  border: 1.5px solid #f9d71c;
+  border: 1.5px solid #f6ae2d;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 15px;
-  background-color: #4e2589;
+  background-color: #33658a;
   color: white;
   transition: border-color 0.4s ease;
 }
 
 .form input::placeholder,
 .form textarea::placeholder {
-  color: #d8c93c;
+  color: #f6ae2d;
 }
 
 .form input:focus,
 .form textarea:focus {
-  border-color: #fff94f;
+  border-color: #f6ae2d;
   outline: none;
-  background-color: #5c2c9b;
+  background-color: #33658a;
 }
 
 .form textarea {
@@ -98,8 +90,8 @@ body::before {
 
 .form button {
   margin-top: 1.5rem;
-  background-color: #f9d71c;
-  color: #3c1361;
+  background-color: #f6ae2d;
+  color: #33658a;
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
@@ -111,8 +103,8 @@ body::before {
 }
 
 .form button:hover {
-  background-color: #d4b800;
-  color: #3c1361;
+  background-color: #f6ae2d;
+  color: #33658a;
   transform: scale(1.06);
   box-shadow: o 4px 10px rgba(0,0,0,0.2);
 }
