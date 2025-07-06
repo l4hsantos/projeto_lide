@@ -9,61 +9,78 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.footer {
-  background-color: #f4f4f4;
-  padding: 30px 20px;
-  font-family: Arial, sans-serif;
-  color: #333;
-  border-top: 1px solid #ddd;
+footer{
+    background-color: #28527A;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1000px;
-  margin: 0 auto;
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 9px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
 }
 
-.footer-left {
-  flex: 1 1 300px;
-  margin-bottom: 20px;
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #28527A;
+    background-color: #ffffff;
 }
-
-.footer-logo {
-  width: 100px;
-  margin-bottom: 10px;
+.footer-col .form-sub input::placeholder{
+    color: #28527A;
 }
-
-.footer-contact {
-  flex: 1 1 300px;
-  margin-bottom: 20px;
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #28527A;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #ffffff;        
 }
-
-.footer-contact h4 {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.footer-contact p,
-.footer-contact a {
-  font-size: 14px;
-  color: #555;
-  text-decoration: none;
-}
-
-.footer-contact a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  text-align: center;
-  font-size: 13px;
-  color: #777;
-  margin-top: 20px;
-} 
-
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
@@ -184,6 +201,4 @@ button:hover {
   border-bottom: 1px solid #ddd;
 }
 
-.livro:last-child {
-  border-bottom: none;
-}
+
