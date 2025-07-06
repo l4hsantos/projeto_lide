@@ -16,7 +16,7 @@
       color: #333;
     }
     header {
-      background-color: #33658a;
+      background-color: #28527A;
       padding: 20px;
       display: flex;
       justify-content: space-between;
@@ -39,11 +39,11 @@
       align-items: center;
     }
     nav a {
-      background-color: #f6ae2d;
+      background-color: #f3e16c;
       padding: 8px 16px;
       border-radius: 20px;
       text-decoration: none;
-      color: #33658a;
+      color: #28527A;
       font-weight: 700;
     }
 
@@ -54,40 +54,40 @@
 }
 
 a:hover{
-    color: #33658a;
+    color: #d3f5da;
     transition: 0.3s all;
 }
 
 
     .btn-sobre {
-      background-color: #f6ae2d;
+      background-color: #f8eb75;
       padding: 8px 16px;
       border-radius: 20px;
       text-decoration: none;
-      color: #33658a;
+      color: #28527A;
       font-weight: 700;
     }
 
     .btn-grupo{
-      background-color: #f6ae2d;
+      background-color: #faf3b9;
       padding: 8px 16px;
       border-radius: 20px;
       text-decoration: none;
-      color: #33658a;
+      color: #28527A;
       font-weight: 700;
     }
 
     .hero {
-      background-color: #33658a;
+      background-color: #6db3c6;
       padding: 50px 20px;
       text-align: center;
-      color: #f6ae2d;
+      color: #fff;
       position: relative;
     }
     .hero h1 {
       font-size: 36px;
       margin-bottom: 10px;
-      color: #f6ae2d;
+      color: #ffcf3f;
     }
     .hero p {
       font-size: 18px;
@@ -100,19 +100,19 @@ a:hover{
       padding: 0 20px;
     }
     .content h2 {
-      color: #33658a;
+      color: #28527A;
       margin-top: 30px;
     }
     .content ul {
       padding-left: 20px;
     }
     .highlight {
-      background:#f6ae2d);
-      border-left: 5px solid #33658a;
+      background: linear-gradient(to right, #66c4be, #f8eb75);
+      border-left: 5px solid #28527A;
       padding: 15px;
       margin-top: 30px;
       font-weight: 700;
-      color: #33658a;
+      color: #28527A;
     }
     .img-row {
       display: flex;
@@ -132,7 +132,7 @@ a:hover{
 <body>
   <header>
     <div class="logo">
-      <img src="imagens/logo.svg" alt="Logo" style="height: 70px;">
+      <img src="img/logo.png" alt="Logo LIDE" style="height:70px;">
       <h1 style="color:white; font-size: 25px; margin: 0;">Livro, Diálogo e Educação</h1>
     </div>
     <nav>
@@ -156,9 +156,9 @@ a:hover{
 
   <div class="content">
     <div class="img-row">
-      <img src="images/imagem1.jpg" alt="Estante de livros">
-      <img src="images/imagem2.jpg" alt="Livros sobre a mesa">
-      <img src="images/imagem.jpg" alt="Livros empilhados">
+      <img src="img/livros1.png" alt="Estante de livros">
+      <img src="img/livros2.png" alt="Livros sobre a mesa">
+      <img src="img/livros3.png" alt="Livros empilhados">
     </div>
     <h2>A Leitura como Caminho para a Transformação</h2>
     <p>A leitura é uma das práticas mais poderosas para o desenvolvimento humano. Por meio dos livros, é possível expandir o vocabulário, estimular a imaginação, melhorar a escrita e desenvolver a capacidade crítica. Além disso, fortalece a empatia, ao permitir que o leitor entre em contato com diferentes culturas, realidades e pontos de vista.</p>
@@ -171,26 +171,41 @@ a:hover{
     </div>
   </div>
 </body>
-   <footer class="footer">
-  <div class="footer-content">
-    <div class="footer-left">
-      <img src="imagens/logo.svg" alt="Logo LIDE" class="footer-logo">
-      <p>Projeto LIDE — Livro, Diálogo e Educação</p>
-    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <li><a href="pagina2.html">Quem somos </a></li>
+                        <li><a href="contatolide@gmail.com">Ajuda</a></li>
+                    </ul>
+                </div>
+              
+                <div class="footer-col">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="materiais.html">Materiais</a></li>
+                        <li><a href="pagina3.html">Indicações</a></li>
+                        <li><a href="pagina5.html">Monte seu Clube do Livro</a></li>
+                    </ul>
+                </div>
 
-    <div class="footer-contact">
-      <h4>Contato</h4>
-      <p>Email: <a href="mailto:contato@lide.com">projetolide@contato.com</a></p>
-      <p>Telefone: (81) 99999-0000</p>
-      <p>Instagram: <a href="https://instagram.com/projetolide" target="_blank">@projetolide</a></p>
-    </div>
-  </div>
+                <div class="footer-col">
+                    <h4>Cadastra-se!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>subscrever</button>
+                        </form>
+                      </div>
 
-  <div class="footer-bottom">
-    <p>&copy; 2025 Projeto LIDE. Todos os direitos reservados.</p>
-  </div>
-</footer>
-<section style="display: flex; justify-content: center; align-items: center; padding: 20px 0; background: #33658a;">
+                </div>
+            </div>
+        </div>
+    </footer>
+<section style="display: flex; justify-content: center; align-items: center; padding: 20px 0; background: #28527A;">
   <p style="color: #fff; margin: 0; font-weight: 700;">© LIDE - Todos os direitos reservados</p>
 </section>
 </html>
+
